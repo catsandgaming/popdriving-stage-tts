@@ -1,5 +1,4 @@
-discord.py
-Voice Support
+discord.py[voice]
 gTTS
 python-dotenv
-FFmpeg	
+flask
