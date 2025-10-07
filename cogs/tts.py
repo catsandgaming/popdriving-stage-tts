@@ -91,6 +91,5 @@ class TTS(commands.Cog):
             if os.path.exists(filename):
                 os.remove(filename)
 
-
-def setup(bot):
-    bot.add_cog(TTS(bot))
+async def setup(bot):
+    await bot.add_cog(TTS(bot))
